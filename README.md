@@ -1,4 +1,8 @@
 Wisecow Application Deployment
+
+
+
+
 Overview
 This repository contains the necessary files to containerize and deploy the Wisecow application on a Kubernetes environment. The deployment includes secure TLS communication and an automated CI/CD pipeline using GitHub Actions.
 
@@ -22,7 +26,7 @@ Dockerization
 To create a Docker image for the Wisecow application, a Dockerfile has been created:
 
 Dockerfile
-Copy code
+
 # Use the official Python image from the Docker Hub
 FROM python:3.9-slim
 
